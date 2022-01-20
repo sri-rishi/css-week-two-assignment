@@ -135,9 +135,9 @@ body {
 /* horizontal text and image card style*/
 .img-text-box {
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    height: 10rem;
+    height: 75%;
+    justify-content: space-around;
+    flex-flow: row;
 }
 
 .lined-img {
