@@ -4,6 +4,14 @@ html {
     font-size: 62.5%;
 }
 
+body {
+    display: flex;
+    gap: 9rem;
+    justify-content: center;
+    align-content:center;
+    flex-wrap: wrap;
+}
+
 /* basic card style */
 .card {
     position: relative;
@@ -13,7 +21,7 @@ html {
     box-shadow: 0 8px 16px 0 #D5D5D5;
     max-width: 35rem;
     min-width: 20rem;
-    max-height: 40rem;
+    height: min-content;
     font-size: 1.25rem;
     line-height: 1.5;
 }
@@ -86,6 +94,28 @@ html {
 }
 
 
+/* text header image style*/
+
+.text-header-img {
+    border-radius: 0;
+}
+
+.text-header-info {
+    margin-top: 2rem;
+}
+
+/* hidden action text card  style*/
+
+.hidden-action-text {
+    visibility: hidden;
+}
+
+/* hidden action icon card style */
+
+.hidden-action-icons {
+    visibility: hidden;
+}
+
 /* text-over image style */
 
 .textOver-header{
@@ -102,14 +132,18 @@ html {
     margin-top: 2rem;
 }
 
-
-/* text header image */
-
-.text-header-img {
-    border-radius: 0;
+/* horizontal text and image card style*/
+.img-text-box {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 10rem;
 }
 
-.text-header-info {
-    margin-top: 2rem;
+.lined-img {
+    width: 40%;
 }
 
+.lined-header {
+    width: 60%;
+} 
