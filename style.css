@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+/* basic card style */
+.card {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 #D5D5D5;
+    max-width: 35rem;
+    min-width: 20rem;
+    max-height: 40rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+.basic-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-title {
+    font-size: 2rem;
+}
+.card-subtitle {
+    font-weight: 400;
+}
+
+.card-title, .card-subtitle, .card-info {
+    margin: 0;
+}
+
+.card-img {
+    width: 100%;
+    max-height: 19.6rem;
+}
+
+.basic-card-img {
+    border-radius: 5px 5px 0 0;
+}
+
+.card-header{
+    padding: 1.6rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-subtitle, .card-info {
+    color: gray;
+}
+
+.card-info {
+    padding: 0 1.6rem 0.8rem 1.6rem;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+.card-actions {
+    padding: 1.5rem 1.6rem 2rem 1.6rem;
+    display: flex;
+    justify-content:space-between;
+    font-weight: 600;
+}
+
+.action-text {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    font-size: 1.4rem;
+    color: #5800FF;
+    letter-spacing: 2px;
+}
+
+.action-icons {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    align-items: center;
+    font-size: 2rem;
+    color: gray;
+}
+
+
+/* text-over image style */
+
+.textOver-header{
+    position: absolute;
+    top: 11rem;
+    color: white;
+}
+
+.textOver-subtitle {
+    color: white;
+}
+
+.textOver-info {
+    margin-top: 2rem;
+}
+
+
+/* text header image */
+
+.text-header-img {
+    border-radius: 0;
+}
+
+.text-header-info {
+    margin-top: 2rem;
+}
+
