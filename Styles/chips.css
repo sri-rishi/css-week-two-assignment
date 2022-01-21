@@ -17,24 +17,42 @@ html {
     padding: 2rem;
     background:#f7f3f3;
     margin: 1rem;
+    
 }
 
 .chips {
-    background: rgb(235, 231, 231);
-    padding: 0.8rem 1.4rem;
-    width: 10rem;
+    background: rgb(187, 184, 184);
+    padding: 0.5rem 1rem;
+    width: min-content;
     border-radius: 20px;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
 }
 
+.chip-orange {
+    background: orangered;
+}
+.chip-blue {
+    background: rgb(68, 68, 226);
+}
+
+.chip-yellow {
+    background: rgb(177, 177, 8);
+}
+
+.fab {
+    padding: 0 0.2rem 0 0;
+}
 .chips-btn {
     background: transparent;
     border: none;
     outline: none;
+    border-radius: 50%;
     font-size: 1.5rem;
-    color: gray;
-    padding: 0;
+    color: rgb(240, 234, 234);
+    padding: 0 0 0 6px;
 }
 
 .stacked-chips {
