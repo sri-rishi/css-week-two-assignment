@@ -15,14 +15,17 @@ body {
 }
 
 .container {
-    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
     width: 60%;
     padding: 8rem 8rem;
     background: #f7f3f3;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header {
-    font-family: 'Roboto', sans-serif;
     background: rgb(74, 74, 219);
     color: white;
     font-size: 2.5rem;
@@ -64,8 +67,74 @@ body {
 } */
 
 
+/* badges */
+
+.text-badge-box {
+    position: relative;
+    font-size: 2rem;
+    width: 169px;
+}
+
+.badge {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    padding: 5px;
+    background:rgb(74, 74, 219);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    position: absolute;
+    color: white;
+}
+
+.badge-text {
+    top: 5px;
+    right: -10px;
+}
 
 
+/* badge on buttons style*/
+.badge-box {
+    width: min-content;
+    position: relative;
+}
+
+.btn-badge {
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    background:rgb(74, 190, 219);
+    border: none;
+    outline: none;
+    border-radius: 2px;
+}
+
+/* badge on right */
+.badge-top-right {
+    top: -12px;
+    right: -15px;
+}
+
+/* badge on left */
+.badge-top-left {
+    top: -12px;
+    left: -15px;
+}
+/* badge on bottom */
+
+.fa-home {
+    font-size: 4rem;
+    color:rgb(74, 190, 219);
+}
+
+.badge-bottom-left{
+    bottom: -10px;
+    left: -10px;
+}
 
 
 
