@@ -54,8 +54,3 @@ html {
     color: rgb(240, 234, 234);
     padding: 0 0 0 6px;
 }
-
-.stacked-chips {
-    flex-direction: column;
-    width: min-content;
-}
