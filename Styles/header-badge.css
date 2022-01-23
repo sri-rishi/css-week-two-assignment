@@ -60,15 +60,6 @@ body {
     justify-content: flex-end;
 }
 
-/* header fixed positioning */
-
-/* .fixed-header {
-    position: fixed;
-} */
-
-
-/* badges */
-
 .text-badge-box {
     position: relative;
     font-size: 2rem;

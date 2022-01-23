@@ -54,3 +54,10 @@ body {
     padding: 0;
     letter-spacing: 1px;
 }
+
+/* dialog 2 */
+
+.dialog-list-item{
+    text-decoration: none;
+    list-style-type: none;
+}
