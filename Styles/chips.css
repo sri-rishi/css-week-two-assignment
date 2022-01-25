@@ -1,24 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
-
-html {
-    font-size: 62.5%;
-} */
-
-/* 
-.chips-box {
-    font-family: 'Roboto', sans-serif;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 10px;
-    height: min-content;
-    padding: 2rem;
-    background:#f7f3f3;
-    margin: 1rem;
-} */
-
 .chips {
     font-size: 1.5rem;
     background: rgb(187, 184, 184);
