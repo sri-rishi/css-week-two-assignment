@@ -65,9 +65,12 @@
     display: flex;
     justify-content: space-around;
     width: 50%;
-    font-size: 1.4rem;
+}
+
+.card-btn {
     color: #5800FF;
     letter-spacing: 2px;
+    font-weight: inherit;
 }
 
 .action-icons {

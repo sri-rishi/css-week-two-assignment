@@ -34,9 +34,6 @@ p {
 }
 
 .btn-dialog {
-    border: none;
-    outline: none;
-    background: transparent;
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
@@ -49,6 +46,10 @@ p {
     justify-content: flex-start;
     gap: 2rem;
     align-items: center;
+}
+
+.fa-user-circle,.fa-plus-circle {
+    font-size: 2.5rem;
 }
 
 .list-dialog-lable {

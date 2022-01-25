@@ -1,0 +1,14 @@
+.center-flex-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-transparent {
+    background: transparent;
+}
+
+.border-none {
+    border: none;
+    outline: none;
+}

@@ -25,9 +25,6 @@
     padding: 0 0.2rem 0 0;
 }
 .chips-btn {
-    background: transparent;
-    border: none;
-    outline: none;
     border-radius: 50%;
     font-size: 1.5rem;
     color: rgb(240, 234, 234);

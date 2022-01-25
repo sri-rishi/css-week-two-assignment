@@ -12,9 +12,6 @@
 }
 
 .btn-header {
-    border: none;
-    outline: none;
-    background: transparent;
     color: white;
     font-size: 2rem;
 }
@@ -74,8 +71,6 @@
     font-weight: 700;
     color: white;
     background:rgb(74, 190, 219);
-    border: none;
-    outline: none;
     border-radius: 2px;
 }
 
