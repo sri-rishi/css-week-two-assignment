@@ -1,5 +1,27 @@
-/* @import url(./Styles/main.css)
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+@import url(./Styles/cards.css);
+@import url(./Styles/chips.css);
+@import url(./Styles/drawer.css);
+@import url(./Styles/dialogs.css);
+@import url(./Styles/header-badge.css);
+@import url(./Styles/snackbar.css);
+@import url(./Styles/tabs.css);
 
 html {
     font-size: 62.5%;
+}
+
+.container {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    height: min-content;
+    padding: 2rem;
+    background:#f7f3f3;
+    margin: 1rem;
 } */

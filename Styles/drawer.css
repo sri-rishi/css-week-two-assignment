@@ -56,11 +56,6 @@ h3, h6 {
     color: black;
 }
 
-.flex-column {
-    display: flex;
-    flex-direction:column;
-}
-
 .link-box {
     display: flex;
     font-size: 1.7rem;
