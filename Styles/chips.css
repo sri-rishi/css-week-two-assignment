@@ -6,10 +6,11 @@ html {
 
 
 .chips-box {
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 10px;
@@ -17,10 +18,10 @@ html {
     padding: 2rem;
     background:#f7f3f3;
     margin: 1rem;
-    
 }
 
 .chips {
+    font-size: 1.5rem;
     background: rgb(187, 184, 184);
     padding: 0.5rem 1rem;
     width: min-content;

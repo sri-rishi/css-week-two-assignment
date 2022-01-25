@@ -134,7 +134,7 @@ body {
 .horizontal-layout {
     display: flex;
     box-sizing: border-box;
-    width: 75%;
+    width: 100%;
     justify-content: space-between;
 }
 .card-hidden-display{
@@ -142,10 +142,8 @@ body {
 }
 
 .lined-img {
-    width: 40%;
-  object-fit: cover;
+    width: 35%;
 }
-
-/* .lined-header {
-    width: 200%;
-}  */
+.lined-header {
+    width: 65%;
+}
