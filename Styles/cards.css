@@ -25,10 +25,6 @@
     font-weight: 400;
 }
 
-.card-title, .card-subtitle, .card-info {
-    margin: 0;
-}
-
 .card-img {
     width: 100%;
     max-height: 19.6rem;
@@ -97,12 +93,6 @@
     margin-top: 2rem;
 }
 
-/* hidden action icon & text card style */
-
-.card-hidden-part {
-    visibility: hidden;
-}
-
 /* text-over image style */
 
 .textOver-header{
@@ -125,9 +115,6 @@
     box-sizing: border-box;
     width: 100%;
     justify-content: space-between;
-}
-.card-hidden-display{
-    display: none;
 }
 
 .lined-img {

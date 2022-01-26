@@ -1,7 +1,3 @@
-h3, h6 {
-    margin: 0;
-}
-
 .drawer {
     box-sizing: border-box;
     background: white;
@@ -55,8 +51,4 @@ hr {
 
 .sub-link-box {
     padding-inline-start: 40px;
-}
-
-.display-none {
-    display: none;
 }

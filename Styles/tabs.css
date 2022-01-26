@@ -15,10 +15,6 @@
     height: 4rem;
 }
 
-.hidden-icon {
-    display: none;
-}
-
 .active-tab {
     color:rgb(74, 74, 219);
     border-bottom: 2px solid rgb(74, 74, 219);
