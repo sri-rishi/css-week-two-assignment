@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
-
+@import url(./Styles/roots.css);
 @import url(./Styles/utilities.css);
 @import url(./Styles/cards.css);
 @import url(./Styles/chips.css);
@@ -19,7 +18,6 @@ h2, h3, h6, p {
 }
 
 .container {
-    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -33,5 +31,5 @@ h2, h3, h6, p {
 }
 
 button {
-    font-family: 'Roboto', sans-serif;
+    font-family: inherit;
 }
