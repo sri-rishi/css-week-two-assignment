@@ -34,13 +34,13 @@
 }
 
 .btn-badge {
-    font-family: 'Roboto', sans-serif;
     padding: 10px 20px;
     font-size: 1.5rem;
     font-weight: 700;
     color: white;
-    background:rgb(74, 190, 219);
+    background:#bb86fc;
     border-radius: 2px;
+    letter-spacing: 1px;
 }
 
 /* badge on right */
@@ -58,7 +58,7 @@
 
 .fa-home {
     font-size: 4rem;
-    color:rgb(74, 190, 219);
+    color:#bb86fc;
 }
 
 .badge-bottom-left{
