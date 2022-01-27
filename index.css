@@ -8,25 +8,9 @@
 @import url(./Styles/snackbar.css);
 @import url(./Styles/tabs.css);
 @import url(./Styles/badge.css);
+@import url(./Styles/main.css);
 
 html {
     font-size: 62.5%;
 }
 
-h2, h3, h6, p {
-    margin: 0;
-}
-
-.container {
-    box-sizing: border-box;
-    flex-wrap: wrap;
-    gap: 10px;
-    height: min-content;
-    padding: 2rem;
-    background:#f7f3f3;
-    margin: 1rem;
-}
-
-button {
-    font-family: inherit;
-}

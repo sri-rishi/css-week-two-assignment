@@ -9,94 +9,106 @@
     <title>Dialogs</title>
 </head>
 <body>
-    <div class="container center-flex-row">
-        <div class="dialog">
-            <p>Discard draft?</p>
-            <div class="dialog-btn-box">
-                <button class="btn-dialog border-none back-transparent">CANCLE</button>
-                <button class="btn-dialog border-none back-transparent">DISCARD</button>
+    <div class="center-flex-column">
+        <header class="component-headers"> 
+            <h2>Dialogs</h2>
+        </header>
+        <div class="container center-flex-row">
+            <div class="dialog">
+                <p>Discard draft?</p>
+                <div class="dialog-btn-box">
+                    <button class="btn-dialog border-none back-transparent">CANCLE</button>
+                    <button class="btn-dialog border-none back-transparent">DISCARD</button>
+                </div>
+            </div>
+    
+            <div class="dialog list-dialog">
+                <p class="list-dialog-lable">Set backup account </p>
+                <ul class="dialog-list">
+                    <li class="dialog-list-item">
+                        <i class="fas fa-user-circle"></i>
+                        <span class="p-left">user01@gmail.com</span>
+                    </li>
+                    <li class="dialog-list-item">
+                        <i class="fas fa-user-circle"></i>
+                        <span class="p-left">user02@gmail.com</span>
+                    </li>
+                    <li class="dialog-list-item">
+                        <i class="fas fa-plus-circle"></i>
+                        <span class="p-left">Add another account</span>
+                    </li>
+                </ul>
             </div>
         </div>
 
-        <div class="dialog list-dialog">
-            <p class="list-dialog-lable">Set backup account </p>
-            <ul class="dialog-list">
-                <li class="dialog-list-item">
-                    <i class="fas fa-user-circle"></i>
-                    <span class="p-left">user01@gmail.com</span>
-                </li>
-                <li class="dialog-list-item">
-                    <i class="fas fa-user-circle"></i>
-                    <span class="p-left">user02@gmail.com</span>
-                </li>
-                <li class="dialog-list-item">
-                    <i class="fas fa-plus-circle"></i>
-                    <span class="p-left">Add another account</span>
-                </li>
-            </ul>
+
+        <!-- tabs -->
+
+        <header class="component-headers"> 
+            <h2>Tabs</h2>
+        </header>
+        <div class="container center-flex-column">
+            <nav class="tabs-box">
+                <a class="tabs active-tab">
+                    <span class="display-none">
+                        <i class="fas fa-clock"></i>
+                    </span>
+                    Tab One
+                </a>
+                <a class="tabs">
+                    <span class="display-none">
+                        <i class="fas fa-location-arrow"></i>
+                    </span>
+                    Tab Two
+                </a>
+                <a class="tabs">
+                    <span class="display-none">
+                        <i class="fas fa-heart"></i>
+                    </span>
+                    Tab Three
+                </a>
+            </nav>
+            <nav class="tabs-box">
+                <a class="tabs">
+                    <span>
+                        <i class="fas fa-clock"></i>
+                    </span>
+                    Tab One
+                </a>
+                <a class="tabs active-tab">
+                    <span>
+                        <i class="fas fa-location-arrow"></i>
+                    </span>
+                    Tab Two
+                </a>
+                <a class="tabs">
+                    <span>
+                        <i class="fas fa-heart"></i>
+                    </span>
+                    Tab Three
+                </a>
+            </nav>
+            <nav class="tabs-box">
+                <a class="tabs flex-column">
+                    <span>
+                        <i class="fas fa-clock"></i>
+                    </span>
+                    Tab One
+                </a>
+                <a class="tabs flex-column">
+                    <span>
+                        <i class="fas fa-location-arrow"></i>
+                    </span>
+                    Tab Two
+                </a>
+                <a class="tabs active-tab flex-column">
+                    <span>
+                        <i class="fas fa-heart"></i>
+                    </span>
+                    Tab Three
+                </a>
+            </nav>
         </div>
-    </div>
-    <div class="container center-flex-row">
-        <nav class="tabs-box">
-            <a class="tabs active-tab">
-                <span class="display-none">
-                    <i class="fas fa-clock"></i>
-                </span>
-                Tab One
-            </a>
-            <a class="tabs">
-                <span class="display-none">
-                    <i class="fas fa-location-arrow"></i>
-                </span>
-                Tab Two
-            </a>
-            <a class="tabs">
-                <span class="display-none">
-                    <i class="fas fa-heart"></i>
-                </span>
-                Tab Three
-            </a>
-        </nav>
-        <nav class="tabs-box">
-            <a class="tabs">
-                <span>
-                    <i class="fas fa-clock"></i>
-                </span>
-                Tab One
-            </a>
-            <a class="tabs active-tab">
-                <span>
-                    <i class="fas fa-location-arrow"></i>
-                </span>
-                Tab Two
-            </a>
-            <a class="tabs">
-                <span>
-                    <i class="fas fa-heart"></i>
-                </span>
-                Tab Three
-            </a>
-        </nav>
-        <nav class="tabs-box">
-            <a class="tabs flex-column">
-                <span>
-                    <i class="fas fa-clock"></i>
-                </span>
-                Tab One
-            </a>
-            <a class="tabs flex-column">
-                <span>
-                    <i class="fas fa-location-arrow"></i>
-                </span>
-                Tab Two
-            </a>
-            <a class="tabs active-tab flex-column">
-                <span>
-                    <i class="fas fa-heart"></i>
-                </span>
-                Tab Three
-            </a>
-        </nav>
     </div>
 </body>
 </html>

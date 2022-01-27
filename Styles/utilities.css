@@ -1,7 +1,44 @@
+h2, h3, h6, p {
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    font-family: 'Roboto', sans-serif;;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    gap: 3rem;
+    height: min-content;
+    padding: 2rem;
+    background:#f7f3f3;
+    margin: 1rem;
+}
+
+button {
+    font-family: inherit;
+}
+
+
 .center-flex-row {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.center-flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.component-headers{
+    font-size: 2rem;
+    margin: 2rem 0; 
+}
+
+.component-subheaders {
+    font-size: 1.5rem;
 }
 
 .back-transparent {
@@ -19,4 +56,8 @@
 
 .visibility-hidden {
     visibility: hidden;
+}
+
+.decoration-none {
+    text-decoration: none;
 }

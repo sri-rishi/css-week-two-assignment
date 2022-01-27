@@ -9,8 +9,10 @@
     --COLOR_PURE_GRAY: rgb(58, 57, 57);
     --COLOR_BLUE: rgb(68, 68, 226);
     --COLOR_LIGHT_BLUE: rgb(74, 74, 219);
+    --COLOR_LIGHTER_BLUE: rgb(112, 112, 248);
     --COLOR_ORANGE: #ff4500;
     --COLOR_YELLOW: rgb(177, 177, 8);
 
     font-family: 'Roboto', sans-serif;;
 }
+

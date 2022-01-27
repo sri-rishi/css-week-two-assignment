@@ -1,4 +1,8 @@
 /* basic card style */
+body {
+    padding: 3rem;
+}
+
 .card {
     position: relative;
     font-family: 'Roboto', sans-serif;

@@ -1,0 +1,28 @@
+.main-box {
+    padding: 2rem;
+    font-size: 2rem;
+    gap:10rem;
+}
+
+.btn-box {
+   gap: 10rem; 
+   flex-wrap: wrap;
+}
+
+.component-link-btn {
+    width: 20rem;
+    height: 10rem;
+    font-size: inherit;
+    padding: 2rem;
+    background: var(--COLOR_BLUE);
+    box-shadow:  0 8px 16px 0 #D5D5D5;
+    border-radius: 10px;
+}
+
+.component-link-btn:hover {
+    background: var(--COLOR_LIGHTER_BLUE);
+}
+
+.component-link {
+    color: var(--COLOR_WHITE);
+}
