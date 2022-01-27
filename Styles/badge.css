@@ -11,12 +11,12 @@
     border-radius: 50%;
     font-size: 1.5rem;
     padding: 5px;
-    background:rgb(74, 74, 219);
+    background:var(--COLOR_LIGHT_BLUE);
     display: flex;
     justify-content: center;
     align-items:center;
     position: absolute;
-    color: white;
+    color: var(--COLOR_WHITE);
 }
 
 /* badge on text */
@@ -38,8 +38,8 @@
     padding: 10px 20px;
     font-size: 1.5rem;
     font-weight: 700;
-    color: white;
-    background:#bb86fc;
+    color: var(--COLOR_WHITE);
+    background: var(--COLOR_PURPLE);
     border-radius: 2px;
     letter-spacing: 1px;
 }
@@ -59,7 +59,7 @@
 
 .fa-home {
     font-size: 4rem;
-    color:#bb86fc;
+    color: var(--COLOR_PURPLE);
 }
 
 .badge-bottom-left{

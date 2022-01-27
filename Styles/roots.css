@@ -7,12 +7,16 @@
     --COLOR_LIGHTER_GRAY: rgb(187, 184, 184);
     --COLOR_LIGHT_GRAY: rgb(133, 129, 129);
     --COLOR_PURE_GRAY: rgb(58, 57, 57);
+    --COLOR_GRAY: rgb(128, 128, 128);
     --COLOR_BLUE: rgb(68, 68, 226);
     --COLOR_LIGHT_BLUE: rgb(74, 74, 219);
     --COLOR_LIGHTER_BLUE: rgb(112, 112, 248);
+    --COLOR_PURPLE: #bb86fc;
+    --COLOR_DARK_PURPLE: #5800FF;
     --COLOR_HOVER_BLUE: #deccf3;
     --COLOR_ORANGE: #ff4500;
     --COLOR_YELLOW: rgb(177, 177, 8);
+    --COLOR_SHADOW: #D5D5D5;
 
     font-family: 'Roboto', sans-serif;;
 }

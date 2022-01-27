@@ -9,7 +9,7 @@
     font-size: 1.5rem;
     background: rgb(58, 57, 57);
     padding: 1.5rem ;
-    color: white;
+    color: var(--COLOR_WHITE);
     border-radius: 4px;
 }
 
@@ -20,7 +20,7 @@
 
 .btn-snackbar {
     margin-top: 2px;
-    color:#bb86fc;
+    color: var(--COLOR_PURPLE);
     font-weight: 600;
     padding: 0;
     letter-spacing: 1px;

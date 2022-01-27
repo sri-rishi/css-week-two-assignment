@@ -1,13 +1,13 @@
 .chips {
     font-size: 1.5rem;
-    background: rgb(187, 184, 184);
+    background: var(--COLOR_LIGHTER_GRAY);
     padding: 0.5rem 1rem;
     width: min-content;
     border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    color: white;
+    color: var(--COLOR_WHITE);
 }
 
 .chip-orange {

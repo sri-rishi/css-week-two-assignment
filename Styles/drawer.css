@@ -1,11 +1,11 @@
 .drawer {
     box-sizing: border-box;
-    background: white;
+    background: var(--COLOR_WHITE);
     width: 25rem;
     display: flex;
     flex-direction: column;
     position: relative;
-    color: rgb(133, 129, 129);
+    color: var(--COLOR_LIGHT_GRAY);
 }
 
 .drawer-list {
@@ -18,7 +18,7 @@
 }
 
 .drawer-title {
-    color: black;
+    color: var(--COLOR_BLACK);
 }
 
 .link-box {
@@ -33,7 +33,7 @@
 }
 
 hr {
-    background:rgb(133, 129, 129);
+    background: var(--COLOR_LIGHT_GRAY);
 }
 
 .m-right {
@@ -41,8 +41,8 @@ hr {
 }
 
 .active-link {
-    color: white;
-    background:rgb(74, 74, 219);
+    color: var(--COLOR_WHITE);
+    background: var(--COLOR_LIGHT_BLUE);
 } 
 
 .right-icon {

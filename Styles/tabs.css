@@ -3,7 +3,7 @@
     font-size: 1.5rem;
     display: flex;
     justify-content: space-around;
-    color: rgb(133, 129, 129);
+    color: var(--COLOR_LIGHT_GRAY);
 }
 
 .tabs {
@@ -16,8 +16,8 @@
 }
 
 .active-tab {
-    color:rgb(74, 74, 219);
-    border-bottom: 2px solid rgb(74, 74, 219);
+    color: var(--COLOR_LIGHT_BLUE);
+    border-bottom: 2px solid var(--COLOR_LIGHT_BLUE);
 }
 
 .flex-column {
