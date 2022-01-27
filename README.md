@@ -5,7 +5,7 @@
 <p>Assignment to practice Flex-box and Positioning at neogCamp</p>
 
 <ul>
-<h3>Components</h3>
+<label>Components</label>
     <li>Cards</li>
     <li>Chips</li>
     <li>Snackbar</li>
