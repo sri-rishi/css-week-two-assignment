@@ -37,10 +37,6 @@ button {
     margin: 2rem 0; 
 }
 
-.component-subheaders {
-    font-size: 1.5rem;
-}
-
 .back-transparent {
     background: transparent;
 }
@@ -60,4 +56,15 @@ button {
 
 .decoration-none {
     text-decoration: none;
+}
+
+
+.btn-hover-padding:hover {
+    background: var(--COLOR_HOVER_BLUE);
+    border-radius: 4px;
+    padding: 2px 5px;
+}
+
+.btn-hover:hover {
+    background: var(--COLOR_HOVER_BLUE);
 }
