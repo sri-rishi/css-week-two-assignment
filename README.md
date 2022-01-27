@@ -6,11 +6,11 @@
 
 <ul>
 <h3>Components</h3>
-<li>Cards</li>
-<li>Chips</li>
-<li>Snackbar</li>
-<li>Dialog box</li>
-<li>Header</li>
-<li>Badges</li>
-<li>Drawers</li>
+    <li>Cards</li>
+    <li>Chips</li>
+    <li>Snackbar</li>
+    <li>Dialog box</li>
+    <li>Header</li>
+    <li>Badges</li>
+    <li>Drawers</li>
 </ul>
