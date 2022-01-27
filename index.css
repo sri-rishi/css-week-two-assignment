@@ -19,9 +19,6 @@ h2, h3, h6, p {
 
 .container {
     box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
     gap: 10px;
     height: min-content;
