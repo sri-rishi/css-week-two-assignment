@@ -11,14 +11,14 @@
 }
 
 .chip-orange {
-    /* background: orangered; */
+    background: var(--COLOR_ORANGE);
 }
 .chip-blue {
-    background: rgb(68, 68, 226);
+    background: var(--COLOR_BLUE);
 }
 
 .chip-yellow {
-    background: rgb(177, 177, 8);
+    background: var(--COLOR_YELLOW);
 }
 
 .fab {
