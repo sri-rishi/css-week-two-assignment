@@ -4,8 +4,8 @@
 <h3>Components built using HTML5 and CSS3 only</h3>
 <p>Assignment to practice Flex-box and Positioning at neogCamp</p>
 
+<h3>Components</h3>
 <ul>
-<label>Components</label>
     <li>Cards</li>
     <li>Chips</li>
     <li>Snackbar</li>
